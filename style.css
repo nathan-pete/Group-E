@@ -3,10 +3,14 @@ img{
 	height: auto;
 }
 
+#class {
+	padding: 0px;
+	margin: 0px;
+}
 
 
 body {
-	background-image: url('Screenshot\ 2021-10-04\ at\ 2.48.43\ PM.png');
+	background-image: url('Screenshot\ 2021-10-04\ at\ 3.25.38\ PM.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
