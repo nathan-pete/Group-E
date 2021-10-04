@@ -8,7 +8,6 @@ header {
 	font-size: 15.5px;
 }
 
-
 #navbar {
 	position: absolute;
 	left:1010px;
@@ -38,5 +37,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: center;
 	color: white;
 }
