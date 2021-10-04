@@ -3,9 +3,34 @@ img{
 	height: auto;
 }
 
-#class {
-	padding: 0px;
-	margin: 0px;
+header {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15.5px;
+}
+
+
+#navbar {
+	position: absolute;
+	left:1010px;
+	bottom: 770px;
+}
+
+#navbar2 {
+	position: absolute;
+	left:1090px;
+	bottom: 770px;
+}
+
+#navbar3 {
+	position: absolute;
+	left:1175px;
+	bottom: 770px;
+}
+
+#navbar4 {
+	position: absolute;
+	left:1300px;
+	bottom: 770px;
 }
 
 
