@@ -1,8 +1,14 @@
-img.animated-gif{
-	width: 200px;
+img{
+	width: 130px;
 	height: auto;
 }
 
+
+
 body {
-	background-color: black;
+	background-image: url('Screenshot\ 2021-10-04\ at\ 2.48.43\ PM.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
 }
