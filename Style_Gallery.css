@@ -21,4 +21,36 @@
 
   body{
       background-color: black;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  #navbar {
+	position: absolute;
+	left:1010px;
+	bottom: 770px;
+}
+
+#navbar2 {
+	position: absolute;
+	left:1090px;
+	bottom: 770px;
+}
+
+#navbar3 {
+	position: absolute;
+	left:1175px;
+	bottom: 770px;
+}
+
+#navbar4 {
+	position: absolute;
+	left:1300px;
+	bottom: 770px;
+}
+
+img{
+	width: 130px;
+	height: auto;
+}
+
