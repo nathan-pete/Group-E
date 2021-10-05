@@ -1,31 +1,31 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   
-  .column {
-    float: left;
-    width: 30%;
-    padding-right: 0px;
-  }
+.column {
+  float: left;
+  width: 30%;
+  padding-right: 0px;
+}
   
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
   
-  .pic {
-    padding: 50px;
+.pic {
+  margin: 20px;
+  padding-left: 130px;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-  body{
-      background-color: black;
-      color: white;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-  #navbar {
+#navbar {
 	position: absolute;
 	left:1010px;
 	bottom: 770px;
