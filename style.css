@@ -8,6 +8,10 @@ header {
 	font-size: 15.5px;
 }
 
+a:link {
+	text-decoration: none;
+}
+
 body {
 	background-image: url('Screenshot\ 2021-10-04\ at\ 3.25.38\ PM.png');
 	background-repeat: no-repeat;
