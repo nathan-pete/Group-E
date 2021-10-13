@@ -6,7 +6,8 @@
     </head>
     <body>
         <?php
-        echo "testing";
+        $time = time();
+        echo "$time";
         ?>
     </body>
 </html>
