@@ -6,8 +6,8 @@
     </head>
     <body>
         <?php
-        $time = time();
-        echo "$time";
+        $file = file_get_contents(".\TextFiles\test.txt");
+        echo "$file";
         ?>
     </body>
 </html>
