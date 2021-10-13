@@ -55,4 +55,23 @@ body{
 	width: 130px;
 	height: auto;
 }
+/*
+Anna
+*/
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  border: 3px solid green;
+  outline: none;
+  border: 0;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1;
+  padding: 5px 30px;
+  border-radius: 60px;
+  background: #f700ff; 
+  color: #ffffff;
+  cursor: pointer;
+}
