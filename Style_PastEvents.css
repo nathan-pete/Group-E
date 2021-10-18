@@ -30,34 +30,42 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
   
-  #navbar {
-      position: absolute;
-      left:1010px;
-      bottom: 770px;
+    .container {
+      width: 100%;
+      max-width: 1700px;
+      padding: 0 15px;
+      margin: 0 auto;
   }
-  
-  #navbar2 {
-      position: absolute;
-      left:1090px;
-      bottom: 770px;
-  }
-  
-  #navbar3 {
-      position: absolute;
-      left:1175px;
-      bottom: 770px;
-  }
-  
-  #navbar4 {
-      position: absolute;
-      left:1300px;
-      bottom: 770px;
-  }
-  
-  #logo img{
-      width: 130px;
-      height: auto;
-  }
+   .logo {
+      float: left;
+    }
+    nav {
+      float: right;
+      margin: 35px
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    nav li {
+      display: inline-block;
+      margin: 10px
+    }
+    a{
+      
+      text-decoration: none;
+    }
+    .container:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .logo{
+      height: 150px;
+      width: 300  px;
+    }
   
   .button { 
     display:inline-block;
