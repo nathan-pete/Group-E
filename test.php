@@ -6,8 +6,7 @@
     </head>
     <body>
         <?php
-        $file = file_get_contents(".\TextFiles\test.txt");
-        echo "$file";
+        echo "pain";
         ?>
     </body>
 </html>
