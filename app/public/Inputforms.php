@@ -40,11 +40,6 @@
                             }
                     }
                     else{
-                        ?>
-                        <div class="alert error-alert">
-                            <?php echo "Invalid email address!" ?>
-                        </div>
-                        <?php
                     }
                 }
                 else{  
