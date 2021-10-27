@@ -1,0 +1,171 @@
+@import url("http://fonts.cdnfonts.com/css/seasideresort");
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background: url("style/images/bg.png");
+  font-family:'SeasideResortNF';
+  color: white;
+  background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+button{
+  font-family:'SeasideResortNF';
+}
+
+::selection{
+  color: rgba(43, 39, 255, 0.698);
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #292929;
+  border-radius: 20px;
+}
+
+.show-btn{
+  color: rgb(142,197,252);
+  padding: 13px 18px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.wrapper{
+  z-index: 5;
+  background: rgb(31, 31, 31);
+  padding: 30px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.wrapper .icon{
+  height: 190px;
+  width: 190px;
+  background: url("logo.gif");
+  background-position: center;
+  background-size: small;
+  line-height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 55px;
+}
+
+.wrapper .content{
+  margin: 20px 0;
+}
+
+.content header{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.content p{
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -3px;
+}
+
+form{
+  width: 98%;
+}
+
+form .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+form .field input{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  outline: none;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+form .field input:focus{
+  border-color: rgb(247, 0, 255);
+}
+
+form .btn{
+  height: 47px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+form .btn .layer{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: rgb(247, 0, 255);
+  transition: all 0.4s ease;
+}
+
+form .btn:hover .layer{
+  left: 0;
+}
+
+form .btn button{
+  z-index: 1;
+  position: relative;
+  background: none;
+  padding: 0px!important;
+  color: #fff;
+  border: 0px;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper .text{
+  margin-top: 5px;
+}
+
+.alert{
+  margin: -9px 0 12px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.success-alert{
+  color: #155724;
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  font-family: "verdana";
+  font-size: 15px;
+}
+
+.error-alert{
+  color: #721c24;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  font-family: "verdana";
+  font-size: 15px;
+}
