@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/seasideresort");
+@import url('http://fonts.cdnfonts.com/css/seaside-resort-nf');
 *{
   margin: 0;
   padding: 0;
@@ -7,14 +7,14 @@
 body{
   height: 100vh;
   background: url("../Images/bg.png");
-  font-family:'Seaside Resort NF';
+  font-family: 'SeasideResortNF'; 
   color: white;
   background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
 button{
-  font-family:'Seaside Resort NF';
+  font-family: 'SeasideResortNF'; 
 }
 ::selection{
   color: rgba(43, 39, 255, 0.698);
