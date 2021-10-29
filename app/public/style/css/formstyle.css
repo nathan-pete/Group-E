@@ -13,6 +13,11 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 }
+h4{
+  text-align: center; 
+  margin-top: 5px;
+  font-size: 17px;
+}
 button{
   font-family: 'Seaside Resort NF'; 
 }
@@ -126,6 +131,14 @@ form .btn button{
   height: 100%;
   width: 100%;
 }
+
+#button {
+	background-color: magenta;
+	border-radius: 30px;
+  height: 35px;
+  width: 100px;
+}
+
 .wrapper .text{
   margin-top: 5px;
 

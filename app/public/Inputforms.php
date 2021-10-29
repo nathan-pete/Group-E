@@ -54,6 +54,11 @@
             <button type="submit" name="subscribe" style="font-family:'Seaside Resort NF'">Subscribe</button>
         </div>
         </form>
+        <div id="button">
+            <a href="index.html" style="color: white;">
+                <h4>Back</h4>
+            </a>
+        </div>
         <div class="text">
             <p style='font-family: "verdana";'>Your information is kept private.</p>
         </div>
