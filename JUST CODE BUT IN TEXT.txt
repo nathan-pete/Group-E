@@ -1,0 +1,24 @@
+<xml version="1.0" encoding="UTF-8"?>
+<event>
+   <name></name>
+   <description></description>
+   <date></date>
+   <location></location>
+</event>
+</xml>
+
+xml
+
+NOW PHP
+REPLACE ALL CAPS WITH ACTUAL VALUES
+open file::: $events = simpleXML_load_file(PATH);
+
+access the thing::: $events->event[ID]->VALUE
+
+$events->event->count()-1
+
+HTML FORM
+
+$event = $events->addChild("event");
+$event->addChild("TAG", "VALUE");
+echo $events->asXML(PATH);
