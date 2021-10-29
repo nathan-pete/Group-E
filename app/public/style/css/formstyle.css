@@ -7,14 +7,14 @@
 body{
   height: 100vh;
   background: url("../Images/bg.png");
-  font-family: 'SeasideResortNF'; 
+  font-family: 'Seaside Resort NF'; 
   color: white;
   background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
 button{
-  font-family: 'SeasideResortNF'; 
+  font-family: 'Seaside Resort NF'; 
 }
 ::selection{
   color: rgba(43, 39, 255, 0.698);
@@ -65,7 +65,7 @@ button{
 }
 .content header{
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 60px;
 }
 .content p{
   color: #333;
