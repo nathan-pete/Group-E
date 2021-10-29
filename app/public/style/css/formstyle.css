@@ -7,14 +7,14 @@
 body{
   height: 100vh;
   background: url("../Images/bg.png");
-  font-family:'Disco Diva';
+  font-family:'Seaside Resort NF';
   color: white;
   background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
 button{
-  font-family:'Disco Diva';
+  font-family:'Seaside Resort NF';
 }
 ::selection{
   color: rgba(43, 39, 255, 0.698);
@@ -128,6 +128,7 @@ form .btn button{
 }
 .wrapper .text{
   margin-top: 5px;
+
 }
 .alert{
   margin: -9px 0 12px 0;

@@ -22,7 +22,7 @@
                     $userEmail = $_POST['email'];
                     if(filter_var($userEmail, FILTER_VALIDATE_EMAIL)){
                         $subject = "Stenden Events - Subscription";
-                        $message = "<h3>Thank you for subscribing. You will be notified of future events with us.</h3>";
+                        $message = "Thank you for subscribing. You will be notified of future events with us.";
                         $sender = "From: noreply.stendenevents@gmail.com"; 
                         if(mail($userEmail, $subject, $message, $sender)){
                             ?>
