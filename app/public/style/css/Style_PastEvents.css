@@ -70,10 +70,10 @@
       clear: both;
     }
 
-  .logo{
-    height: 150px;
-    width: 300px;
-  }
+    .logo{
+      height: 160px;
+      width: 300px;
+    }
   
   .button { 
     display:inline-block;
