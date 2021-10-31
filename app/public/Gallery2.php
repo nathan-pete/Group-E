@@ -2,7 +2,15 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style/css/Style_Gallery.css'>
+    <link rel='stylesheet' type='text/css' href="<?php
+        $time = date('H');
+        if(($time >= 17) || ($time <= 11)) {
+            echo "style/css/Style_Gallery.css";
+        } 
+        else {
+            echo "style/css/Style_GalleryLight.css";
+        }
+        ?>">
     <title>Stenden Events | Gallery</title>
     <link rel="icon" href="style/Images/NHL Stenden.png">
     <link href="http://fonts.cdnfonts.com/css/mexcellent" rel="stylesheet">
@@ -13,10 +21,30 @@
           <img src="style/images/logo.gif" alt="logo" class = "logo">
           <nav>
             <ul>
-              <li><h3> <a href="Index.html"style="color: white;">Home</a></h3></li>
-              <li><h3> <a href="Gallery2.html"style="color: white;">Gallery</a></h3></li>
-              <li><h3> <a href="Past_Events.html"style="color: white;">Past Events</a></h3></li>
-              <li><h3> <a href="Future_Events.html" style="color: white;">Future Events</a></h3></li>
+              <li><h3> <a href="Index.php" style="color: <?php if(($time >= 17) || ($time <= 11)) {
+            echo "white";
+        } 
+        else {
+            echo "black";
+        } ?>;">Home</a></h3></li>
+              <li><h3> <a href="Gallery2.php"style="color: <?php if(($time >= 17) || ($time <= 11)) {
+            echo "white";
+        } 
+        else {
+            echo "black";
+        } ?>;">Gallery</a></h3></li>
+              <li><h3> <a href="Past_Events.php"style="color: <?php if(($time >= 17) || ($time <= 11)) {
+            echo "white";
+        } 
+        else {
+            echo "black";
+        } ?>;">Past Events</a></h3></li>
+              <li><h3> <a href="Future_Events.php" style="color: <?php if(($time >= 17) || ($time <= 11)) {
+            echo "white";
+        } 
+        else {
+            echo "black";
+        } ?>;">Future Events</a></h3></li>
             </ul>
           </nav>
         </div>

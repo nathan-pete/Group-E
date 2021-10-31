@@ -1,0 +1,63 @@
+@import url('http://fonts.cdnfonts.com/css/mexcellent');
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+  
+.pic {
+  margin: 20px;
+  padding-left: 130px;
+  height: 300px;
+  width: auto;
+}
+
+body{
+  background-color: White;
+  color: rgb(0, 0, 0);
+  font-family: "mexcellent";
+}
+
+.container {
+  width: 100%;
+  max-width: 1700px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+  margin: 35px
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+
+a{ 
+  text-decoration: none;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+  height: 160px;
+  width: 300px;
+}
+
