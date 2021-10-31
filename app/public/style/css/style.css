@@ -29,15 +29,17 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-  }
-  nav li {
+}
+
+nav li {
     display: inline-block;
     margin: 10px
-  }
-  a{
-    
+}
+
+a{
     text-decoration: none;
-  }
+}
+
   .container:after {
     content: "";
     display: table;
@@ -45,8 +47,7 @@ nav ul {
   }
     body{
     background-color: #000;
-
-      
+    font-family: "mexcellent";
   }
   .logo{
     height: 160px;
