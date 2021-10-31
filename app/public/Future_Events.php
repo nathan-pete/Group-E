@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="container">
-          <img src="style/Images/logo.gif" alt="logo" class = "logo">
+          <img src="style/images/logo.gif" alt="logo" class = "logo">
           <nav>
             <ul>
               <li><h3> <a href="Index.php"style="color: <?php if(($time >= 17) || ($time <= 11)) {
