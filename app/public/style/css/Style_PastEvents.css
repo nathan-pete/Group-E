@@ -5,12 +5,12 @@
   .column {
     display: inline-block;
     width: 20%;
-    height: 40%;
     text-align: center;
     margin: 20px 10px;
     background: #fcfcfc;
     border-radius: 20px;
     padding-bottom: 20px;
+    
   }
   
   /* .row::after {
@@ -20,9 +20,14 @@
   } */
     
   .pic img{
-      width: 50%;
+      width: 100%;
       height: auto;
       border-radius: 20px;
+  }
+  .main_c{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
   body{
