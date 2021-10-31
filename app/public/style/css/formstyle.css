@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/seaside-resort-nf');
+@import url('http://fonts.cdnfonts.com/css/mexcellent');
 *{
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 body{
   height: 100vh;
   background: url("../Images/bg.png");
-  font-family: 'Seaside Resort NF'; 
+  font-family: 'mexcellent'; 
   color: white;
   background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -19,7 +19,7 @@ h4{
   font-size: 17px;
 }
 button{
-  font-family: 'Seaside Resort NF'; 
+  font-family: 'mexcellent'; 
 }
 ::selection{
   color: rgba(43, 39, 255, 0.698);
@@ -55,9 +55,9 @@ button{
   pointer-events: auto;
 }
 .wrapper .icon{
-  height: 190px;
-  width: 190px;
-  background: url("../Images/logo.gif");
+  height: 185px;
+  width: 185px;
+  background: url("../images/logo.gif");
   background-position: center;
   background-size: small;
   line-height: 80px;
@@ -116,6 +116,9 @@ form .btn .layer{
 }
 form .btn:hover .layer{
   left: 0;
+  cursor: pointer;
+  background-color:  rgb(155, 134, 158);
+  color:  rgb(0, 0, 0);
 }
 form .btn button{
   z-index: 1;
@@ -137,6 +140,12 @@ form .btn button{
 	border-radius: 30px;
   height: 35px;
   width: 100px;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color:  rgb(155, 134, 158);
+  color:  rgb(0, 0, 0);
 }
 
 .wrapper .text{
