@@ -22,6 +22,10 @@
     margin: 35px
   }
   nav ul {
+    margin: 35px;
+}
+  
+nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -39,8 +43,7 @@
     display: table;
     clear: both;
   }
-  
-  body{
+    body{
     background-color: #000;
 
       
@@ -49,11 +52,12 @@
     height: 160px;
     width: 300px;
   }
-  #text1 {
-	font-size: 35px;
-	font-family: 'Mexcellent';
-}
 
+
+
+#text1 {
+	font-size: 35px;
+}
 #text2 {
 	font-size: 25px;
 
