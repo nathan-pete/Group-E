@@ -10,7 +10,7 @@
 
 
 
-       $directory = 'TextDocs';
+       $directory = 'TextDocs\\text';
       
 
     $files = array();
@@ -18,12 +18,12 @@
         if ($file !== '.' && $file !== '..') {
             $files[] = $file;
         }
-        $testing = file_get_contents("TextDocs\\$file");
+        $testing = file_get_contents("TextDocs\\text\\$file");
         
-    echo "$testing";
-    echo "<br>";
-    
-        
+            
+            echo "$testing";
+            echo "<br>";
+ 
     }
 
 
