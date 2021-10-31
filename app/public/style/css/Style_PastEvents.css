@@ -68,10 +68,10 @@
       clear: both;
     }
 
-    .logo{
-      height: 150px;
-      width: 300  px;
-    }
+  .logo{
+    height: 150px;
+    width: 300px;
+  }
   
   .button { 
     display:inline-block;
