@@ -55,7 +55,7 @@
         </div>
         </form>
         <div id="button">
-            <a href="index.html" style="color: white;">
+            <a href="index.php" style="color: white;">
                 <h4>Back</h4>
             </a>
         </div>
