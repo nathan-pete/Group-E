@@ -1,14 +1,4 @@
 @import url('http://fonts.cdnfonts.com/css/mexcellent');
-* {
-  box-sizing: border-box;
-}
-  
-.column {
-  float: left;
-  width: 30%;
-  padding-right: 0px;
-}
-  
 .row::after {
   content: "";
   clear: both;
@@ -24,36 +14,50 @@
 
 body{
   background-color: black;
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-#navbar {
-	position: absolute;
-	left:1010px;
-	bottom: 770px;
+  color: rgb(0, 0, 0);
+  font-family: "mexcellent";
 }
 
-#navbar2 {
-	position: absolute;
-	left:1090px;
-	bottom: 770px;
+.container {
+  width: 100%;
+  max-width: 1700px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
-#navbar3 {
-	position: absolute;
-	left:1175px;
-	bottom: 770px;
+.logo {
+  float: left;
 }
 
-#navbar4 {
-	position: absolute;
-	left:1300px;
-	bottom: 770px;
+nav {
+  float: right;
+  margin: 35px
 }
 
-#logo img{
-	width: 130px;
-	height: auto;
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px;
+  list-style: none;
+}
+
+a{ 
+  text-decoration: none;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+  height: 150px;
+  width: 300px;
 }
 
