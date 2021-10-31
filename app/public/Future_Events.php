@@ -12,10 +12,10 @@
           <img src="style/Images/logo.gif" alt="logo" class = "logo">
           <nav>
             <ul>
-              <li><h3> <a href="Index.html" style="color: white;">Home</a></h3></li>
-              <li><h3> <a href="Gallery2.html"style="color: white;">Gallery</a></h3></li>
-              <li><h3> <a href="Past_Events.html"style="color: white;">Past Events</a></h3></li>
-              <li><h3> <a href="Future_Events.html" style="color: white;">Future Events</a></h3></li>
+              <li><h3> <a href="Index.php" style="color: white;">Home</a></h3></li>
+              <li><h3> <a href="Gallery2.php"style="color: white;">Gallery</a></h3></li>
+              <li><h3> <a href="Past_Events.php"style="color: white;">Past Events</a></h3></li>
+              <li><h3> <a href="Future_Events.php" style="color: white;">Future Events</a></h3></li>
             </ul>
           </nav>
         </div>
@@ -27,7 +27,7 @@
             </div>
             <h2>Name of event</h2>
             <h4>25.11.2021</h4>
-            <a class="button" href="FutureEvent1.html">View Event</a>	
+            <a class="button" href="FutureEvent1.php">View Event</a>	
         </div>
         <div class="column">
             <div class ="pic">
@@ -35,7 +35,7 @@
             </div>
             <h2>Name of event</h2>
             <h4>15.01.2022</h4>
-            <a class="button" href="FutureEvent2.html">View Event</a>	
+            <a class="button" href="FutureEvent2.php">View Event</a>	
         </div>
         <div class="column">
             <div class ="pic">
@@ -43,7 +43,7 @@
             </div>
             <h2>Name of event</h2>
             <h4>10.02.2022</h4>
-            <a class="button" href="FutureEvent3.html">View Event</a>	
+            <a class="button" href="FutureEvent3.php">View Event</a>	
         </div>
     </div>
     

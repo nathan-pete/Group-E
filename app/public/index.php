@@ -28,19 +28,19 @@
         else {
             echo "black";
         } ?>;">Home</a></h3></li>
-              <li><h3> <a href="Gallery2.html"style="color: <?php if(($time >= 17) || ($time <= 11)) {
+              <li><h3> <a href="Gallery2.php"style="color: <?php if(($time >= 17) || ($time <= 11)) {
             echo "white";
         } 
         else {
             echo "black";
         } ?>;">Gallery</a></h3></li>
-              <li><h3> <a href="Past_Events.html"style="color: <?php if(($time >= 17) || ($time <= 11)) {
+              <li><h3> <a href="Past_Events.php"style="color: <?php if(($time >= 17) || ($time <= 11)) {
             echo "white";
         } 
         else {
             echo "black";
         } ?>;">Past Events</a></h3></li>
-              <li><h3> <a href="Future_Events.html" style="color: <?php if(($time >= 17) || ($time <= 11)) {
+              <li><h3> <a href="Future_Events.php" style="color: <?php if(($time >= 17) || ($time <= 11)) {
             echo "white";
         } 
         else {
