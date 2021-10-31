@@ -51,14 +51,10 @@ a{
   }
   .logo{
     height: 160px;
-    width: 100px;
+    width: 300px;
   }
 
-body{
-    background-image: url("../images/back.png");
-    background-repeat: none;
-    background-size: cover;
-}
+
 
 #text1 {
 	font-size: 35px;
@@ -97,7 +93,7 @@ footer{
 
 }
 .back{
-  background:#000000 url('img/back.png') no-repeat;
+  background:#000000 url('../images/back.png') no-repeat;
   background-size: 100%;
   background-position: top;
   height: 100%;
