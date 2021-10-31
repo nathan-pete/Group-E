@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="<?php
+        $time = date('H');
+        if(($time >= 21) || ($time <= 9)) {
+            echo "style/css/style.css";
+        } 
+        else {
+            echo "style/css/stylelight.css";
+        }
+        ?>">
     <link rel="icon" href="style/Images/NHL Stenden.png">
     <title>Stenden Events | Home</title>
 </head>
@@ -14,10 +22,30 @@
           <img src="style/images/logo.gif" alt="logo" class = "logo">
           <nav>
             <ul>
-              <li><h3> <a style="color: white;">Home</a></h3></li>
-              <li><h3> <a href="Gallery2.html"style="color: white;">Gallery</a></h3></li>
-              <li><h3> <a href="Past_Events.html"style="color: white;">Past Events</a></h3></li>
-              <li><h3> <a href="Future_Events.html" style="color: white;">Future Events</a></h3></li>
+              <li><h3> <a style="color: <?php if(($time >= 21) || ($time <= 9)) {
+            echo "white";
+        } 
+        else {
+            echo "black";
+        } ?>;">Home</a></h3></li>
+              <li><h3> <a href="Gallery2.html"style="color: <?php if(($time >= 21) || ($time <= 9)) {
+            echo "white";
+        } 
+        else {
+            echo "black";
+        } ?>;">Gallery</a></h3></li>
+              <li><h3> <a href="Past_Events.html"style="color: <?php if(($time >= 21) || ($time <= 9)) {
+            echo "white";
+        } 
+        else {
+            echo "black";
+        } ?>;">Past Events</a></h3></li>
+              <li><h3> <a href="Future_Events.html" style="color: <?php if(($time >= 21) || ($time <= 9)) {
+            echo "white";
+        } 
+        else {
+            echo "black";
+        } ?>;">Future Events</a></h3></li>
             </ul>
           </nav>
         </div>
