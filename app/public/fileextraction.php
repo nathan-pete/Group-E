@@ -19,23 +19,15 @@
         if ($file !== '.' && $file !== '..') {
             $files[] = $file;
         }
-        $testing = file_get_contents("TextDocs\\$files");
+        $testing = file_get_contents("TextDocs\\$file");
         
     echo "$testing";
     echo "<br>";
     
         
     }
-//  $fileSystemIterator = new FilesystemIterator('TextDocs');
-//
-//  $entries = array();
-//  foreach ($fileSystemIterator as $fileInfo){
-//      $entries[] = $fileInfo->getFilename();
-//        echo "$entries";
-//  }
-//  var_dump($entries);
-$files = array_slice(scandir('TextDocs'), 2);
-echo "$files";
+
+
         ?>
     </body>
 </html>
