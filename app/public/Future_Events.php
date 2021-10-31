@@ -55,7 +55,7 @@
             </div>
             <h2>Name of event</h2>
             <h4>25.11.2021</h4>
-            <a class="button" href="FutureEvent1.html">View Event</a>	
+            <a class="button" href="FutureEvent1.php">View Event</a>	
         </div>
         <div class="column">
             <div class ="pic">
@@ -63,7 +63,7 @@
             </div>
             <h2>Name of event</h2>
             <h4>15.01.2022</h4>
-            <a class="button" href="FutureEvent2.html">View Event</a>	
+            <a class="button" href="FutureEvent2.php">View Event</a>	
         </div>
         <div class="column">
             <div class ="pic">
@@ -71,7 +71,7 @@
             </div>
             <h2>Name of event</h2>
             <h4>10.02.2022</h4>
-            <a class="button" href="FutureEvent3.html">View Event</a>	
+            <a class="button" href="FutureEvent3.php">View Event</a>	
         </div>
     </div>
     

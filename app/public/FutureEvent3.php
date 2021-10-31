@@ -25,10 +25,10 @@
           <img src="style/Images/logo.gif" alt="logo" class = "logo">
           <nav>
             <ul>
-              <li><h3> <a style="color: white;">Home</a></h3></li>
-              <li><h3> <a href="Gallery.html"style="color: white;">Gallery</a></h3></li>
-              <li><h3> <a href="Past_Events.html"style="color: white;">Past Events</a></h3></li>
-              <li><h3> <a href="Future_Events.html" style="color: white;">Future Events</a></h3></li>
+              <li><h3> <a href="index.php" style="color: white;">Home</a></h3></li>
+              <li><h3> <a href="Gallery.php" style="color: white;">Gallery</a></h3></li>
+              <li><h3> <a href="Past_Events.php" style="color: white;">Past Events</a></h3></li>
+              <li><h3> <a href="Future_Events.php" style="color: white;">Future Events</a></h3></li>
             </ul>
           </nav>
         </div>
