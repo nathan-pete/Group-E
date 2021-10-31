@@ -57,20 +57,18 @@ a{
 #text1 {
 	font-size: 35px;
 }
+
 #text2 {
 	font-size: 25px;
-
 }
 
 #button {
 	background-color: magenta;
 	border-radius: 60px;
-    height: 70px;
-    width: 310px;
+  height: 70px;
+  width: 310px;
+}
 
-
-
-  }
 #text2>h2 {
     margin: 20px;
     padding-bottom: 20px;
@@ -85,8 +83,8 @@ a{
   }
 footer{
   width: 100%;
-    max-width: 1700px;
-    margin: 0 auto;
+  max-width: 1700px;
+  margin: 0 auto;
     
 
 }
