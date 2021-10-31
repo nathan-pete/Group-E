@@ -1,4 +1,11 @@
 @import url('http://fonts.cdnfonts.com/css/mexcellent');
+
+.column {
+  float: left;
+  width: 30%;
+  padding-right: 0px;
+}
+
 .row::after {
   content: "";
   clear: both;
