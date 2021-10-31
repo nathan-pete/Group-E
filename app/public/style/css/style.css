@@ -53,7 +53,6 @@ nav ul {
     width: 100px;
   }
 
-
 body{
     background-image: url("../images/back.png");
     background-repeat: none;
@@ -62,9 +61,7 @@ body{
 
 #text1 {
 	font-size: 35px;
-	font-family: 'Mexcellent';
 }
-
 #text2 {
 	font-size: 25px;
 
