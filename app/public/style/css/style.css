@@ -13,31 +13,19 @@
     align-items: center;
     height: 700px;
 
-<<<<<<< Updated upstream
   }
   .logo {
-=======
-.logo{
-    height: 160px;
-    width: 300px;
-}
-
-.logo {
->>>>>>> Stashed changes
     float: left;
   }
   nav {
     float: right;
-<<<<<<< Updated upstream
     margin: 35px
   }
   nav ul {
-=======
     margin: 35px;
 }
   
 nav ul {
->>>>>>> Stashed changes
     margin: 0;
     padding: 0;
     list-style: none;
@@ -55,9 +43,7 @@ nav ul {
     display: table;
     clear: both;
   }
-  
-<<<<<<< Updated upstream
-  body{
+    body{
     background-color: #000;
 
       
@@ -66,26 +52,15 @@ nav ul {
     height: 160px;
     width: 300px;
   }
-  #text1 {
-=======
-body{
-    background-image: url("../images/back.png");
-}
+
+
 
 #text1 {
->>>>>>> Stashed changes
 	font-size: 35px;
-	font-family: 'Mexcellent';
 }
-
 #text2 {
-<<<<<<< Updated upstream
 	font-size: 25px;
 
-=======
-	font-size: 25px; 
-    font-family: 'Mexcellent';
->>>>>>> Stashed changes
 }
 
 #button {
@@ -117,7 +92,7 @@ footer{
 
 }
 .back{
-  background:#000000 url('img/back.png') no-repeat;
+  background:#000000 url('../images/back.png') no-repeat;
   background-size: 100%;
   background-position: top;
   height: 100%;
