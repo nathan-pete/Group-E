@@ -7,8 +7,7 @@
     <body>
         <?php
        
-//       $file = file_get_contents("TextDocs\\1.txt");
-//       echo "$file <br>";
+
 
 
        $directory = 'TextDocs';
