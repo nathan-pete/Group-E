@@ -6,9 +6,9 @@
     <title>Subscribe</title>
     <link rel="stylesheet" href="style/css/formstyle.css">
     <link rel="icon" href="style/Images/NHL Stenden.png">
-    <link href="http://fonts.cdnfonts.com/css/seaside-resort-nf" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/mexcellent" rel="stylesheet">
 </head>
-<body style="font-family:'Seaside Resort NF'">
+<body style="font-family:'mexcellent'">
     <div class="wrapper">
         <div class="icon"></div>
         <div class="content">
@@ -51,7 +51,7 @@
         </div>
         <div class="field btn">
             <div class="layer"></div>
-            <button type="submit" name="subscribe" style="font-family:'Seaside Resort NF'">Subscribe</button>
+            <button type="submit" name="subscribe" style="font-family:'mexcellent'">Subscribe</button>
         </div>
         </form>
         <div id="button">

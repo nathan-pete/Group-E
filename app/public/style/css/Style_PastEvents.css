@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/mexcellent'); 
+
 /* * {
     box-sizing: border-box;
   } */
@@ -33,7 +35,7 @@
   body{
     background-color: black;
     color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "mexcellent";
     }
   
     .container {
