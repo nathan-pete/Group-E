@@ -11,7 +11,7 @@
             echo "style/css/StyleLight_FutureEvents.css";
         }
         ?>">
-    <title>Past Events</title>
+    <title>Future Events</title>
     <link rel="icon" href="style/Images/NHL Stenden.png">
 </head>
 <body>

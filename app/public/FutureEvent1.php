@@ -2,8 +2,16 @@
 <html lang="en-us">
 <head>
     <meta charset='utf-8'>
-    <link rel='stylesheet' type='text/css' href='style/css/Style_PastEvents.css'>
-    <title>Past Events</title>
+    <link rel='stylesheet' type='text/css' href="<?php
+        $time = date('H');
+        if(($time >= 17) || ($time <= 11)) {
+            echo "style/css/Style_FutureEvents.css";
+        } 
+        else {
+            echo "style/css/StyleLight_FutureEvents.css";
+        }
+        ?>">
+    <title>Future Events</title>
     <style>
         body{
           background-image:url(style/Images/bg.png);
