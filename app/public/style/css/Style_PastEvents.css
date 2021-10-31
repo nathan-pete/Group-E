@@ -3,7 +3,7 @@
   } */
     
   .column {
-    display: inline-block;
+    display: grid;
     width: 20%;
     height: 40%;
     text-align: center;
@@ -11,6 +11,7 @@
     background: #fcfcfc;
     border-radius: 20px;
     padding-bottom: 20px;
+    grid-template-columns: 25% 50% 25%;
   }
   
   /* .row::after {
@@ -70,6 +71,7 @@
   
   .button { 
     display:inline-block;
+    width: 100px;
     outline: none;
     border: 0;
     font-size: 16px;
@@ -78,8 +80,11 @@
     background: #EC56F7; 
     color: #ffffff;
     padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     transition-duration: 0.4s;
     margin-top: 20px;
+    grid-column: 2;
 }
 
   a.button:hover {
