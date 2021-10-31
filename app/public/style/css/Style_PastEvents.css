@@ -36,15 +36,17 @@
     background-color: black;
     color: rgb(0, 0, 0);
     font-family: "mexcellent";
-    }
+  }
   
-    .container {
+  .container {
       width: 100%;
       max-width: 1700px;
-      padding: 0 15px;
-      margin: 0 auto;
+      padding: 10px;
+      margin: -10px;
+      background-color: black;
   }
-   .logo {
+  
+  .logo {
       float: left;
     }
     nav {
@@ -93,4 +95,11 @@
     cursor: pointer;
     background-color:  rgb(155, 134, 158);
     color:  rgb(0, 0, 0);
+}
+
+body{
+  background: url('../images/flare.png') no-repeat;
+  background-size: 100%;
+  background-position: top;
+  height: 100%;
 }
