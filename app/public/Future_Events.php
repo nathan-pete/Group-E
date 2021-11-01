@@ -49,11 +49,10 @@
         </div>
 </header>
     <div class="main_c">
-        <div class="column">
-            <div class ="pic">
-                <img src="style/images/pexels-rodnae-productions-8119493.png" alt="Disco Picture 1">
-            </div>
-            <?php
+        <?php
+        
+        
+            
        
 
 
@@ -66,8 +65,13 @@
         if (($file !== '.') && ($file !== '..')) {
             $files[] = $file;
             $testing = file_get_contents("TextDocs\\text\\$file");
+            echo '<div class="column">
+            <div class ="pic">
+                <img src="style/images/pexels-rodnae-productions-8119493.png" alt="Disco Picture 1">
+            </div>';
             echo "$testing";
-            echo "<br>";
+            echo '<a class="button" href="FutureEvent1.php">View Event</a>	
+        </div>';
         }
         
         
@@ -76,25 +80,9 @@
     }
 
 
-        ?>
-            <a class="button" href="FutureEvent1.php">View Event</a>	
-        </div>
-        <div class="column">
-            <div class ="pic">
-                <img src="style/images/pexels-cottonbro-5781092.png" alt="Disco Picture 1">
-            </div>
-            <h2>Name of event</h2>
-            <h4>15.01.2022</h4>
-            <a class="button" href="FutureEvent2.php">View Event</a>	
-        </div>
-        <div class="column">
-            <div class ="pic">
-                <img src="style/images/pexels-darlene-alderson-4389972.png" alt="Disco Picture 1">
-            </div>
-            <h2>Name of event</h2>
-            <h4>10.02.2022</h4>
-            <a class="button" href="FutureEvent3.php">View Event</a>	
-        </div>
+        
+            ?>
+        
     </div>
     
 </body>
