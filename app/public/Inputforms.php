@@ -28,7 +28,7 @@
                         if(mail($userEmail, $subject, $message, $sender)){
                             ?>
                             <div class="alert success-alert">
-                                <?php echo "Thanks for Subscribing us." ?>
+                                <?php echo "Thanks for Subscribing us.";?>
                             </div>
                             <?php            
                         }
