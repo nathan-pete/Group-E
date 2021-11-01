@@ -1,4 +1,3 @@
-Halloween party <br>
-31-10-2021 <br>
-Spooky season <br>
-The spooky season is upon us, we get to celebrate the great joy of Halloween!!! <br>
+<h2>Halloween party</h2></br>
+<h4>31-10-2021</h4> </br>
+<h4>Spooky season</h4> <br>

@@ -52,7 +52,26 @@
     <div>
         <div class="column">
             <div class ="pic">
-                <img src="style/images/pexels-cottonbro-5781092.png" alt="Disco Picture 1">
+                <img src="TextDocs/Images/<?php
+                
+
+       $directory = 'TextDocs\\Images';
+      
+
+       $files = array();
+       foreach (scandir($directory) as $file) { 
+           if (($file !== '.') && ($file !== '..')) {
+               $files[] = $file;
+               echo $files[0];
+               
+           }
+          
+           
+               
+    
+       }
+                
+                ?>" alt="Event picture">
             </div>	
         </div>
         <div class="column">

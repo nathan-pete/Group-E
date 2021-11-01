@@ -53,8 +53,30 @@
             <div class ="pic">
                 <img src="style/images/pexels-rodnae-productions-8119493.png" alt="Disco Picture 1">
             </div>
-            <h2>Name of event</h2>
-            <h4>25.11.2021</h4>
+            <?php
+       
+
+
+
+       $directory = 'TextDocs\\text';
+      
+
+    $files = array();
+    foreach (scandir($directory) as $file) {
+        if (($file !== '.') && ($file !== '..')) {
+            $files[] = $file;
+            $testing = file_get_contents("TextDocs\\text\\$file");
+            echo "$testing";
+            echo "<br>";
+        }
+        
+        
+            
+ 
+    }
+
+
+        ?>
             <a class="button" href="FutureEvent1.php">View Event</a>	
         </div>
         <div class="column">
