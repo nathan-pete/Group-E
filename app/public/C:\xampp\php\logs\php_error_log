@@ -1,0 +1,29 @@
+[01-Nov-2021 07:15:07 UTC] PHP Warning:  readfile(TextDocs\text\1.txt): Failed to open stream: No such file or directory in /app/public/fileextraction.php on line 31
+[01-Nov-2021 07:15:07 UTC] PHP Warning:  readfile(TextDocs\text\2.txt): Failed to open stream: No such file or directory in /app/public/fileextraction.php on line 32
+[01-Nov-2021 07:17:02 UTC] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in /app/public/fileextraction.php on line 35
+[01-Nov-2021 07:17:28 UTC] PHP Warning:  readfile(TextDocs\1.txt): Failed to open stream: No such file or directory in /app/public/fileextraction.php on line 31
+[01-Nov-2021 07:17:28 UTC] PHP Warning:  readfile(TextDocs\2.txt): Failed to open stream: No such file or directory in /app/public/fileextraction.php on line 32
+[01-Nov-2021 07:19:50 UTC] PHP Warning:  scandir(TextDocs\text): Failed to open directory: No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:19:50 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:19:50 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:21:24 UTC] PHP Warning:  scandir(TextDocs\text): Failed to open directory: No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:21:24 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:21:24 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:21:24 UTC] PHP Warning:  scandir(TextDocs\text): Failed to open directory: No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:21:24 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:21:24 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:22:21 UTC] PHP Warning:  scandir(TextDocs\text): Failed to open directory: No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:22:21 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:22:21 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:23:21 UTC] PHP Warning:  scandir(TextDocs\text): Failed to open directory: No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:23:21 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:23:21 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:23:21 UTC] PHP Warning:  scandir(TextDocs\text): Failed to open directory: No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:23:21 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:23:21 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:24:06 UTC] PHP Warning:  scandir(TextDocs\text): Failed to open directory: No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:24:06 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:24:06 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:24:14 UTC] PHP Warning:  scandir(TextDocs\text): Failed to open directory: No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:24:14 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /app/public/fileextraction.php on line 17
+[01-Nov-2021 07:24:14 UTC] PHP Warning:  foreach() argument must be of type array|object, bool given in /app/public/fileextraction.php on line 17
