@@ -55,21 +55,21 @@
                 <img src="TextDocs/Images/<?php
                 
 
-       $directory = 'TextDocs\\Images';
-      
+                $directory = 'TextDocs\\Images';
+                    
 
-       $files = array();
-       foreach (scandir($directory) as $file) { 
-           if (($file !== '.') && ($file !== '..')) {
-               $files[] = $file;
-               echo $files[0];
-               
-           }
-          
-           
-               
-    
-       }
+                $files = array();
+                foreach (scandir($directory) as $file) { 
+                    if (($file !== '.') && ($file !== '..')) {
+                        $files[] = $file;
+                        echo $files[0];
+                            
+                    }
+                        
+                        
+                            
+                    
+                }
                 
                 ?>" alt="Event picture">
             </div>	

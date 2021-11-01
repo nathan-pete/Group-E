@@ -60,7 +60,7 @@
             </a>
         </div>
         <div class="text">
-            <p style='font-family: "verdana";'>Your information is kept private.</p>
+            <p style='font-family: "verdana";'>Your information is kept private. <br> We are <b><u>not</u></b> FaceBook.</p>
         </div>
     </div>
 </body>
