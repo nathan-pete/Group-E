@@ -50,45 +50,31 @@
         </div>
     </header>
     <div>
-        <div class="column">
-            <div class ="pic">
-                <img src="TextDocs/Images/<?php
+      <?php  
                 
-
+                
                 $directory = 'TextDocs\\Images';
-                    
-
+                $count = 0;    
+                
                 $files = array();
                 foreach (scandir($directory) as $file) { 
                     if (($file !== '.') && ($file !== '..')) {
                         $files[] = $file;
-                        echo $files[0];
-                            
+                       echo ' <div class="column">
+                              <div class ="pic">
+                                  <img src="TextDocs/Images/';
+                        echo $files[$count];
+                        $count++;
+                        echo '                " alt="Event picture">
+                                    </div>	
+                                </div>'; 
                     }
                         
                         
                             
                     
                 }
-                
-                ?>" alt="Event picture">
-            </div>	
-        </div>
-        <div class="column">
-            <div class ="pic">
-                <img src="style/images/pexels-darlene-alderson-4389972.png" alt="Disco Picture 2">
-            </div>	
-        </div>
-        <div class="column">
-            <div class ="pic">
-                <img src="style/images/pexels-estoymhrb-7393318.png" alt="Disco Picture 3">
-            </div>	
-        </div>
-        <div class="column">
-            <div class ="pic">
-                <img src="style/images/pexels-rodnae-productions-8119493.png" alt="Disco Picture 4">
-            </div>	
-        </div>
+               ?> 
     </div>
     
 </body>
