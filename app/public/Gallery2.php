@@ -53,7 +53,7 @@
       <?php  
                 
                 
-                $directory = 'TextDocs\\Images';
+                $directory = 'TextDocs/Images';
                 $count = 0;    
                 
                 $files = array();
