@@ -17,9 +17,9 @@
     foreach (scandir($directory) as $file) { 
         if (($file !== '.') && ($file !== '..')) {
             $files[] = $file;
-            
-            echo "$file";
-            
+            $testing = file_get_contents("TextDocs\\text\\$file");
+            echo "$testing";
+            echo "<br>";
         }
        
         
