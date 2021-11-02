@@ -57,14 +57,14 @@
 
 
 
-       $directory = 'TextDocs\\text';
+       $directory = 'TextDocs/text';
       
 
     $files = array();
     foreach (scandir($directory) as $file) {
         if (($file !== '.') && ($file !== '..')) {
             $files[] = $file;
-            $testing = file_get_contents("TextDocs\\text\\$file");
+            $testing = file_get_contents("TextDocs/text/$file");
             echo '<div class="column">
             <div class ="pic">
                 <img src="style/images/pexels-rodnae-productions-8119493.png" alt="Disco Picture 1">
